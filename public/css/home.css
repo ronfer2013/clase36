@@ -1,0 +1,159 @@
+
+.home__main__section--banner{
+    background-color: var(--colorVerde);
+    padding: 40px 10px 60px;
+
+}
+
+.home__main__section--banner figure {
+    text-align: center;
+}
+
+.home__main__section--banner h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: var(--familyTitles);
+    font-weight: 800;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.home__main__section--star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+.home__main__section--star hr{
+    width: 100px;
+    height: 4px;
+    background-color: #fff;
+    border: none;
+}
+
+.home__main__section--star h4{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.home__main__section--banner p{  
+    color: #fff;
+    text-align: center;
+}
+
+.home__main__section--portfolio{
+    padding: 60px 10px;
+    color: var(--colorAzul);
+}
+
+
+.home__main__section--portfolio .home__main__section--star hr{
+ 
+    background-color: var(--colorAzul);
+}
+
+.home__main__section--portfolio .home__main__section--star h4{
+    color: var(--colorAzul);
+}
+
+.home__main__section--portfolio--images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.home__main__section--portfolio--images figure{
+    width: 100%;
+}
+.home__main__section--portfolio--images img{
+    width: 100%;
+}
+.home__main__section--about{
+    background-color: var(--colorVerde);
+    color: #fff;
+    padding: 60px 10px;
+}
+
+.home__main__section--about p{
+  line-height: 24px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.home__main__section--about a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 15px;
+    display: block;
+    width: 200px;
+    margin: 20px auto 0px;
+    text-align: center;
+}
+
+
+
+.home__main__section--contact{
+    color: var(--colorAzul);
+    padding: 60px 10px;
+}
+
+.home__main__section--contact .home__main__section--star hr{
+    background-color: var(--colorAzul);
+}
+
+.home__main__section--contact .home__main__section--star h4{
+    color: var(--colorAzul);
+}
+
+.home__main__section--contact button{
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;   
+}
+
+
+@media (min-width:768px) {
+    .home__main__section--portfolio, .home__main__section--about, .home__main__section--contact{
+        padding: 60px 12%;
+    }
+    
+    .home__main__section--portfolio--images{
+        flex-direction: row;
+        justify-content: space-between;
+      
+    }
+    .home__main__section--portfolio--images figure{
+        width: 49%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home__main__section--banner h1{
+        font-size: 60px;
+    }
+    .home__main__section--portfolio--images figure{
+        width: 32%;
+    }
+
+    .home__main__section--about article {
+        display: flex;
+        gap: 20px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .home__main__section--contact{
+       width: 60%;
+       margin: 0 auto;
+
+    }
+    
+
+
+}

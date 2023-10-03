@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'lato';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ol, ul {
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.general__subtitulos {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: var(--familyTitles);
+}
